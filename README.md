@@ -8,7 +8,7 @@ made for myself to finish small projects in company.
             - scss 
             - script (fetch.js etc..)
          - dist(release dictionary)
-         - index.html
+            - index.html
 - package.json
 - webpack.config.js
 - .gitignore

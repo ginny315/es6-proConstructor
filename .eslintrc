@@ -1,4 +1,5 @@
 {
+  "sourceType": "module",
   "env": {
     "browser": true,
     "node": true,
@@ -29,6 +30,7 @@
     "regexYFlag": true
   },
   "rules": {
+    "indent": [1, "tab", {"SwitchCase": 1}],
     "no-return-assign": 1,
     "no-invalid-this": 2,
     "no-void": 0,
@@ -42,10 +44,7 @@
     "no-empty": 0,
     "no-loop-func": 0,
     "no-restricted-modules": 0,
-    "space-after-keywords": [
-      2,
-      "always"
-    ],
+    "keyword-spacing":2,
     "generator-star-spacing": [
       2,
       {
@@ -114,7 +113,6 @@
     ],
     "no-spaced-func": 2,
     "no-sync": 0,
-    "no-empty-label": 2,
     "no-unreachable": 2,
     "no-eval": 1,
     "func-style": 0,
@@ -157,13 +155,6 @@
     "no-invalid-regexp": 2,
     "use-isnan": 2,
     "no-new-require": 2,
-    "indent": [
-      2,
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
     "no-native-reassign": 2,
     "no-func-assign": 2,
     "no-shadow": 0,
@@ -175,7 +166,6 @@
         "nonwords": false
       }
     ],
-    "space-return-throw-case": 2,
     "no-lone-blocks": 2,
     "no-debugger": 2,
     "arrow-parens": [
@@ -230,10 +220,6 @@
     "guard-for-in": 0,
     "no-nested-ternary": 1,
     "no-multi-str": 2,
-    "space-before-keywords": [
-      2,
-      "always"
-    ],
     "no-warning-comments": 0,
     "no-delete-var": 2,
     "no-with": 2,
@@ -281,13 +267,6 @@
       "1tbs",
       {
         "allowSingleLine": true
-      }
-    ],
-    "no-unused-vars": [
-      2,
-      {
-        "vars": "all",
-        "args": "none"
       }
     ],
     "no-lonely-if": 0,
@@ -363,5 +342,5 @@
     "quote-props": 0,
     "no-div-regex": 0,
     "func-names": 0
-  }
+  },
 }

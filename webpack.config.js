@@ -30,9 +30,9 @@ module.exports = {
         }
       },
       {
-        test: /\.styl$/,
+        test: /\.(css|scss|styl)$/,
         exclude: /node_modules/,
-        loader: 'style-loader!css-loader!stylus-loader'
+        loader: 'style-loader!css-loader!stylus-loader!sass-loader'
       }
     ]
   },

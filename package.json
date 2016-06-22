@@ -21,11 +21,13 @@
     "css-loader": "*",
     "file-loader": "*",
     "nib": "*",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^3.2.1",
     "style-loader": "*",
     "stylus-loader": "*",
     "template-html-loader": "*",
     "url-loader": "*",
-    "webpack": "*",
+    "webpack": "^1.13.1",
     "webpack-dev-server": "*"
   }
 }

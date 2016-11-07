@@ -25,15 +25,20 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           // inline files smaller then 1kb as base64 dataURL
-          limit: 1000,
+          limit: 1000
           // fallback to file-loader with this naming scheme
-          name: '[name].[ext]?[hash]'
+          //name: '[name].[ext]?[hash]'
         }
       },
       {
         test: /\.(css|scss|styl)$/,
         exclude: /node_modules/,
         loader: 'style-loader!css-loader!stylus-loader!sass-loader'
+      },
+      {
+        test: /\.(html)$/,
+        exclude: /node_modules/,
+        loader: 'html?attrs=false'
       }
     ]
   },

@@ -27,7 +27,9 @@
     "regexUFlag": true,
     "superInFunctions": true,
     "blockBindings": true,
-    "regexYFlag": true
+    "regexYFlag": true,
+    "import":true,
+    "export":true
   },
   "rules": {
     "indent": [1, "tab", {"SwitchCase": 1}],

@@ -1,0 +1,51 @@
+$color-green:#42b983;
+header{
+    font-size:2rem;
+    color:$color-green;
+    text-align:center;
+}
+h3{
+    font-size:1.5rem;
+}
+ul{
+    list-style-type:none;
+    width:15rem;
+    display:inline-block;
+    font-size:1.2rem;
+}
+li{
+    display:inline-block;
+}
+.content{
+    margin-top: 1rem;
+    vertical-align: top;
+}
+.content>li{
+    display:block;
+    font-size:1.5rem;
+    line-height:1.5rem;
+    padding-top: 0.5rem;
+    h3{
+        border-bottom: 2px solid $color-green;
+    }
+}
+.content>li>span{
+    font-size:1.2rem;
+    line-height: 1.2rem;
+}
+.milkteaCom{
+    padding-top:0.5rem;
+}
+.milkteaCom li{
+    display:inline-block;
+    border:0;
+}
+.milkteaCom li:first-child{
+    width:10rem;
+}
+.milkteaCom li:nth-child(2){
+    width:2rem;
+}
+.milkteaCom li:nth-child(3){
+    width:2rem;
+}

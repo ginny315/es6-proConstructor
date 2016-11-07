@@ -1,4 +1,5 @@
 import me from '../../asserts/images/me.jpg';
+import welcomeStyle from './welcome.scss';
 "use strict";
 export default {
     data() {

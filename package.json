@@ -37,6 +37,7 @@
     "template-html-loader": "*",
     "url-loader": "*",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "*"
+    "webpack-dev-server": "*",
+    "webpack-md5-hash": "0.0.5"
   }
 }

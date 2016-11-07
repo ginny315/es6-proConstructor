@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var WebpackMd5Hash = require('webpack-md5-hash');
 
 module.exports = {
   entry: ['whatwg-fetch', './client/main.js'],
@@ -50,6 +51,7 @@ module.exports = {
     //    }),
     //    new webpack.optimize.OccurenceOrderPlugin()]
   plugins: [
-    new webpack.BannerPlugin('created by ginny')
+    new webpack.BannerPlugin('created by ginny'),
+    new WebpackMd5Hash()
   ]
 };

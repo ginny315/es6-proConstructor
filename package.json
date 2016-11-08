@@ -7,7 +7,7 @@
     "ginnypro": "./bin/ginnypro"
   },
   "scripts": {
-    "test": "ginny test"
+    "test": "ginnypro test"
   },
   "repository": {
     "type": "git",
@@ -37,12 +37,10 @@
     "underscore": "^1.8.2",
     "vinyl-fs": "^1.0.0"
   },
-  "gitHead": "767be048bf4248648b7c1b139782d200c2f1f2ab",
-  "_id": "ginnypro@0.0.1",
-  "_shasum": "2b4811df4b87737b109655d153d8e1199a51b1c9",
+  "_id": "ginnypro@1.0.1",
   "_from": "ginnypro@*",
-  "_npmVersion": "2.14.20",
-  "_nodeVersion": "v4.4.0",
+  "_npmVersion": "^2.14.20",
+  "_nodeVersion": "^4.4.0",
   "_npmUser": {
     "name": "ginny",
     "email": "510622610@qq.com"

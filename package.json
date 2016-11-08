@@ -1,6 +1,6 @@
 {
   "name": "ginnypro",
-  "version": "0.0.2",
+  "version": "1.0.0-rc.1",
   "description": "配置es6代码转译的项目构建工具，模块化开发",
   "main": "index.js",
   "bin": {

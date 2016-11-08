@@ -4,7 +4,7 @@
 ```
 |---client
 |------dist 打包文件目录
-|------assert 资源文件目录
+|------asset 资源文件目录
 |---------images 资源图片 
 |------components 组件目录
 |---------welcome demo组件
@@ -22,4 +22,13 @@
 |------README.md
 |------webpack.config.js --webpack配置文件
 
+```
+
+全局安装
+```shell
+npm install ginnypro -g
+```
+项目初始化
+```shell
+ginnypro install ／ ginnypro i
 ```

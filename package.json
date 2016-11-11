@@ -53,13 +53,8 @@
   ],
   "dist": {
     "shasum": "2b4811df4b87737b109655d153d8e1199a51b1c9",
-    "size": 7452,
-    "noattachment": false,
     "tarball": "http://registry.npm.taobao.org/ginnypro/download/ginnypro-1.0.0.tgz"
   },
   "directories": {},
-  "publish_time": 1437471747518,
-  "_cnpm_publish_time": 1437471747518,
-  "_resolved": "https://registry.npm.taobao.org/ginnypro/download/ginnypro-1.0.0.tgz",
-  "readme": "ERROR: No README data found!"
+  "_resolved": "https://registry.npm.taobao.org/ginnypro/download/ginnypro-1.0.0.tgz"
 }

@@ -1,5 +1,5 @@
 # ginnypro
-配置好webpack的es6小项目目录
+配置好webpack的es6小项目目录，适合组件化开发。
 
 ```
 |---client
